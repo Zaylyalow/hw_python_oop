@@ -21,7 +21,6 @@ class InfoMessage:
         return self.TEXT.format(**asdict(self))
 
 
-@dataclass
 class Training:
     """Базовый класс тренировки."""
 
